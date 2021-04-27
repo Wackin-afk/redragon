@@ -1,0 +1,28 @@
+.header{
+    font-family: 'Permanent Marker', cursive;
+    color:red;
+    text-indent: 50px;
+}
+th{
+    font-family: 'Raleway', sans-serif;
+    color:red;
+    width: 10%;
+}
+td{
+    color:grey;
+    width: 10%;
+}
+table{
+    margin-top: 30px;
+}
+hr{
+    border-color: red;
+}
+h1{
+    color:grey;
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    background-image: url('/assets/image3.jpg');
+    padding: 40px;
+}
+

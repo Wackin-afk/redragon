@@ -1,0 +1,16 @@
+h1{
+    color:grey;
+}
+p{
+    color:grey;
+}
+button{
+    color:black;
+    font-weight: bolder;
+}
+button:hover{
+    color:black;
+}
+.page{
+    background-color: rgb(19, 19, 19);
+}

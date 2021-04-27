@@ -1,0 +1,33 @@
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Ubuntu:wght@300&display=swap" rel="stylesheet">
+<br>
+<br>
+<br>
+<br>
+<br>
+<body>
+<h1 *ngIf="true" class="header">LIST OF EMPLOYEES</h1>
+<table class="table table-bordered">
+    <thead>
+        <tr>
+            <th>EMPLOYEE NUMBER</th>
+            <th>NAME</th>
+            <th>GENDER</th>
+            <th>EMAIL</th>
+            <th>EMPLOYMENT STATUS</th>
+            <th>SALARY</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor="let std of empArr; trackBy:trackByData">
+        <td>{{std.id}}</td>
+        <td>{{std.name}}</td>
+        <td>{{std.gender}}</td>
+        <td>{{std.email}}</td>
+        <td>{{std.emp_status}}</td>
+        <td>{{std.salary}}</td>
+        </tr>
+    </tbody>
+    </table>
+</body>
+    <br><br>
