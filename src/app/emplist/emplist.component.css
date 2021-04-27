@@ -22,7 +22,7 @@ h1{
     color:grey;
     font-family: 'Raleway', sans-serif;
     text-align: center;
-    background-image: url('/assets/image3.jpg');
+    background-image: url('assets/image3.jpg');
     padding: 40px;
 }
 
